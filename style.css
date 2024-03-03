@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: url(fon6.jpg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.main{
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+h1{
+    font-size: 130px;
+    color: rgba(151, 85, 151, 0.61);
+    text-shadow: 4px 4px 10px #3b0d31;
+    letter-spacing: -20px;
+}
+p{
+    font-size: 20px;
+    color: rgb(67, 20, 110);
+}
+.text{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid rgb(54, 9, 58);
+    border-radius: 5px;
+    background-color: rgb(161, 121, 196);
+    margin-left: 500px;
+}
+a:hover{
+    cursor: pointer;
+    color: white;
+}
